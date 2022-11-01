@@ -11,8 +11,8 @@ void main() {
 
   // make array of names list
   const char *files[2];
-  files[0] = "first.txt";
-  files[1] = "last.txt";
+  files[0] = "./static/first.txt";
+  files[1] = "./static/last.txt";
 
   for (size_t set = 0; set <= 1; set++) {
     fp = fopen(files[set], "r");
